@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: carcassonne-score-tracker
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
